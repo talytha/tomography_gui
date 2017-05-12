@@ -553,4 +553,5 @@ if __name__ == "__main__":
 
     kromer_plot = tardis_kromer_plotter(mdl = "model_00113_3.h5", lines = "lines_00113_3.h5")
     kromer_plot.generate_plot(twinx = True, ylim = [0, 7e39])
+    # kromer_plot.generate_plot()
     plt.show()
